@@ -25,4 +25,11 @@ public class Library {
         }
         return false;
     }
+    public float averageCalculator(int[] array) {
+        int sum = 0;
+        for (int number : array) {
+            sum = sum + number;
+        }
+        return (float) sum / array.length;
+    }
 }
